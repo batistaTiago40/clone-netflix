@@ -163,6 +163,10 @@ body {
     display: flex;
 }
 
+.email-submit .email-button:hover {
+    cursor: pointer;
+}
+
 footer {
     align-items: center;
 }
@@ -187,6 +191,7 @@ footer {
     align-items: center;
     flex-direction: row;
 }
+
 .main-footer .footer-container .footer-content .text-1 {
     margin: -5% 0;
     width: 52%;
@@ -228,13 +233,17 @@ footer {
     margin-bottom: .5rem;
 }
 
-.questions ul {
+.questions-list {
     list-style: none;
     margin: 52px auto;
 }
 
-.questions ul li {
+.questions-list li {
     margin-bottom: 8px;
+}
+
+.questions-list li:hover {
+    cursor: pointer;
 }
 
 .questions .first-question {
@@ -307,6 +316,11 @@ footer {
     color: #fff;
     display: flex;
 }
+
+.email-submit-footer .email-button:hover {
+    cursor: pointer;
+}
+
 .contact {
     margin-top: 50px;
     min-width: 190px;
@@ -322,6 +336,12 @@ footer {
     padding: 0;
     margin: 30px auto ;
 }
+
+.duvidas span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .contact-container{
     margin: 0 auto;
     width: 90%;
@@ -346,6 +366,7 @@ footer {
     width: 25%;
     padding-right: 12px;
     vertical-align: top;
+    transition: all 300ms ease;
 }
 
 .footer-language {
@@ -371,4 +392,9 @@ footer {
 .footer-logo {
     font-size: 13px;
     margin-top: 24px;
+}
+
+.contact-container .bar-1 li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
